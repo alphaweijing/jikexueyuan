@@ -1,0 +1,145 @@
+
+    body {
+        text-align: center;
+        width:1280px;
+        height:680px
+    }
+    div{text-align:center;}
+    #navdiv {
+        /*width:1980px;
+        height:20px;*/
+        color:white;
+        position:absolute;
+        top:0px;
+        right:0px;
+        margin-top:19px;
+    }
+    a.nav{
+        float:left;
+        font-size:13px;
+        font-weight:bold;
+        color:#333;
+        margin-left:20px;
+    }
+    a.nav1{
+        float:left;
+        font-size:13px;
+        color:#333;
+        margin-left:20px;
+    }
+	#navmore{
+		background-color:#317ef3;
+		color:white;
+		float:left;
+        font-size:13px;
+        margin-left:20px;
+		width:60px;
+		height:23px;
+		line-height:24px;
+		margin-top:-6px;
+		margin-right:6px;
+	}
+	#navmore:link{text-decoration:none;}
+	#navmore:visited{text-decoration:none;}
+	#navmore:hover{text-decoration:none;}
+	a.nav1:hover{
+		color: #00c
+	}
+    a.nav:link {
+        color: #333
+    }
+    
+    a.nav:visited {
+        color: #333
+    }
+    
+    a.nav:hover {
+        color: #00c
+    }
+    .lgdiv{
+        text-align:center;
+    }
+    #formdiv{
+        width:1280px;
+        height:60px;
+        text-align:center;
+    }
+    #form{ 
+        margin:22px auto 0;
+        width:646px;
+    }
+ 
+    #keywords {
+        float:left;
+        width: 540px;
+        height: 30px;
+		outline:none;
+    }
+    #submitbt{
+        float:left;
+        width:100px;
+        height:36px;
+        color:white;
+        font-size:15px;
+        background-color:#317ef3;
+        border:none;
+    }
+	#soutu-ico{
+		position:absolute;
+		left:842px;
+		top:171px;
+		width:19px;
+	}
+   #wraper{
+        width:1280px;
+   }
+   #footer{
+        width:734px;
+        height:60px;
+        margin:0 auto;
+        text-align:center;
+   }
+    p.codeft{
+        text-align:left;
+        height:10px;
+        font-weight:bold;
+        font-size:13px;
+		color:#666;
+    }
+    p.codeft1{
+        text-align:left;
+        height:10px;
+        font-size:13px;
+        color:#999;
+    }
+    .ft{
+        float:left;
+        margin-left:8px;
+        margin-right:10px;
+        width:60px;
+        height:60px;
+    }
+    #cprtdiv{
+        float:left;
+        margin-left:20px;
+        width:400px;
+        height:60px;
+        font-size:13px;
+        color:#999;
+    }
+    p.cprtp{
+    	height:8px;
+    	text-align:left;
+    	margin-top:0px;
+    }
+    #ftlj1{
+        color:#999;
+        margin-left:0;
+    }
+    a.ftlj2{
+        color:#999;
+    }
+    a.ftlj{
+    	color:#999;
+        margin-left:60px;
+    }

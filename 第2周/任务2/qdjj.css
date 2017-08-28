@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(beijing.gif);
+    background-color: white;
+    text-align:center;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:10px;
+    padding: 4px auto 8px;
+    width: 710px;
+/*     height: 2547px; */
+    background-color: white;
+	border-radius:30px 30px 30px 30px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 639px;
+    height: 2419px;
+    font-size: 12px;
+    margin-left:auto;
+    margin-right:auto;
+	/* background-color:#ccc; */
+}
+
+tbody {
+   /*  width: 639px;
+    height: 2363px; */
+}
+td{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#header{
+	text-align:left;
+}
+#lgcell{
+	text-align:left;
+	padding-left:0;
+	margin-left:0;
+	border:0;
+}
+#navcell{
+	font-size:12px;
+	text-align:right;
+	/* display:inline; */
+	text-align:right;
+	vertical-align:bottom;
+	border:0;
+}
+.nav{
+	color:#FF0099;
+	text-decoration:none;
+	margin-left:7px;
+}
+#caption{
+	font-size:18px;
+	border:0;
+	font-weight:bold;
+	height:60px;
+}
+
+.td1 {
+    width:136px;
+    text-align:right;
+	line-height:150%;
+	border:1px solid #ccc;
+}
+
+.td2 {
+	padding:2px;
+    width: 496px;
+    text-align:left;
+	line-height:150%;
+	border:1px solid #ccc;
+}
+.redfont {
+    color: red;
+}
+.bluefont {
+    color: blue;
+}
+#claim{
+	text-align:center;
+	background-image: url(http://www.qdjj.net/images/beijin1.gif);
+	border:1px solid #ccc;
+}
+.headp{
+	height:15px;
+	color:#333333;
+}
+.link{
+	color:blue;
+}
+.section{
+	background-color:#EEEEEE;
+	color:#003399;
+	padding-left:12px;
+	text-align:left;
+	line-height:150%;
+	border:1px solid #ccc;
+}
+.part{
+	font-weight:bold;
+}
+.ipt{
+	margin-top:2px;
+	width:243px;
+}
+.textarea{
+	width:441px;
+	height:94px;
+	
+}
+input[type="checkbox"]{
+	margin:3px 3px 3px 4px;
+	display:inline-block;
+	cursor:pointer;
+}
+label{
+	display:inline-block;
+	cursor:pointer;
+}
+.submit{
+	height:85px;
+	border:1px solid #ccc;
+}
+#submit{
+	width:87px;
+	height:21px;
+}
+.footertd{
+	height: 40px;
+    vertical-align: top;
+}
+.footer{
+	color:#666666;
+    
+}

@@ -1,0 +1,40 @@
+
+	div{
+		font-family:Arial,Verdana,Sans-serif;
+		text-align:center;
+		margin:200px auto 0;
+		
+	}
+	body{
+		background:#C1C6B5;
+		text-align:center;
+
+	}
+	caption{
+		padding:10px;
+		font-size:20px;
+	}
+	table{
+		  text-align:center;
+		  border:1px solid;
+		  border-collapse:collapse;
+		  width:500px;
+	}
+	th{
+		  border:1px solid;
+		  text-align:center;
+		  vertical-align:middle;
+		  width:60px;
+		  height:25px;
+		  padding-top:8px;
+		  padding-bottom:8px;
+	}
+	td{
+		 text-align:center;
+		 vertical-align:middle;
+		 width:60px;
+		 height:25px;
+		 border:1px solid;
+		 padding-top:8px;
+		 padding-bottom:8px;
+	}
