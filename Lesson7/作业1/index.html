@@ -1,0 +1,411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <title>百度一下，你就知道</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="baiducss.css">
+	<script src="jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+    <div id="wraper">
+		<!-- 皮肤 -->
+		<div class="background"></div>
+		<div class="skin">
+			<div class="skin-wraper">
+				<div class="skin-cat">
+					<ul>
+						<li>热门</li>
+						<li>游戏</li>
+						<li>卡通</li>
+						<li>女神降临</li>
+						<li>明星</li>
+						<li>风景</li>
+						<li>简约</li>
+						<li>小清新</li>
+					</ul>
+				</div>
+				<div class="retract"><span></span>收起</div>
+				<div class="skin-box">
+					<div class="pic-box afterclear">
+						<ul>
+							<li>
+								<p class="pic-name">风景</p>
+								<img src="img/11.jpg" width="195" height="119">
+								<div class="tick"></div>
+							</li>
+							<li>
+								<p class="pic-name">风景</p>
+								<img src="img/12.jpg" width="97" height="59">
+								<div class="tick"></div>
+							</li>
+							<li>
+								<p class="pic-name">风景</p>
+								<img src="img/13.jpg" width="97" height="59">
+								<div class="tick"></div>
+							</li>
+							<li>
+								<p class="pic-name">风景</p>
+								<img src="img/14.jpg" width="97" height="59">
+								<div class="tick"></div>
+							</li>
+							<li class="pos4">
+								<p class="pic-name">风景</p>
+								<img src="img/15.jpg" width="97" height="59">
+								<div class="tick"></div>
+							</li>
+							<li class="big 11">
+								<p class="pic-name">风景</p>
+								<img src="img/16.jpg" width="195" height="119">
+								<div class="tick"></div>
+							</li>
+							<li class="pos1">
+								<p class="pic-name">风景</p>
+								<img src="img/20.jpg" width="97" height="59">
+								<div class="tick"></div>
+							</li>
+							<li class="pos2">
+								<p class="pic-name">风景</p>
+								<img src="img/18.jpg" width="97" height="59">
+								<div class="tick"></div>
+							</li>
+							<li class="pos3">
+								<p class="pic-name">风景</p>
+								<img src="img/19.jpg" width="97" height="59">
+								<div class="tick"></div>
+							</li>
+						</ul>
+					</div>
+					<div class="preview-box">
+						<div class="preview"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!--header -->
+        <div class="header">
+        	<!-- tool -->
+        	<div class="tool">
+        		<a href="https://www.baidu.com/s?tn=baidutop10&rsv_idx=2&wd=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">
+        			<span>上海：</span>
+        			<span class="weather"></span>
+					<iframe class="weather2" width="420" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&color=%23&bgc=%23C6C6C6&icon=1&py=shanghai&num=4"></iframe>
+        			<span>28℃</span>
+        			<span class="air">&nbsp;&nbsp;良&nbsp;</span>
+					<span>&nbsp;51</span>
+        			<span>&nbsp;|&nbsp;</span>
+        		</a>
+				<a href="#" class="lset">宝箱</a>
+				<a href="#" class="lset" id="ex-skin">换肤</a>
+				<a href="#" class="lset">消息</a>
+        	</div>
+            <!--nav-->
+            <div id="nav">
+                <a href="https://www.nuomi.com/" class="nav">糯米</a>
+                <a href="http://news.baidu.com/" class="nav">新闻</a>
+                <a href="https://www.hao123.com/" class="nav">hao123</a>
+                <a href="http://map.baidu.com/" class="nav">地图</a>
+                <a href="http://v.baidu.com" class="nav">视频</a>
+                <a href="http://tieba.baidu.com" class="nav">贴吧</a>
+                <a href="http://i.baidu.com/" class="nav">Mr Lee</a>
+                <a href="http://www.baidu.com/gaoji/preferences.html" class="nav">设置</a>
+                <a href="http://www.baidu.com/more/" id="navmore">更多产品</a>
+            </div>
+            <!--更多产品导航-->
+            <div class="con1">
+                <div class="morewraper">
+                    <div class="morepr">
+                        更多产品
+                    </div>
+                    <div class="morelink">
+                        <a href="http://music.baidu.com/"><span id="bg1"></span>音乐</a>
+                        <a href="http://image.baidu.com/"><span id="bg2"></span>图片</a>
+                        <a href="https://zhidao.baidu.com/"><span id="bg3"></span>知道</a>
+                        <a href="http://wenku.baidu.com/"><span id="bg4"></span>文库</a>
+                        <a href="http://top.baidu.com/"><span id="bg5"></span>风云榜</a>
+                        <a href="http://e.baidu.com/?refer=888"><span id="bg6"></span>百度推广</a>
+                        <a href="https://www.baidu.com/more/" id="bgnone">全部产品>></a>
+                    </div>
+                </div>
+            </div>
+            <!--设置-->
+            <div class="con2">
+                <div id="set">
+                    <a href="" class="set">搜索设置</a>
+                    <a href="" class="set">高级搜索</a>
+                    <a href="" class="set">关闭预测</a>
+                    <a href="" class="set">搜索历史</a>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索框区域 -->
+        <div class="form beforeclear">
+            <!--logo-->
+            <div class="logo1">
+                <img src="img/login_logo.png" alt="百度" width=270 height=129>
+            </div>
+            <!--search form-->
+            <div class="search">
+                <form class="form" name="f" action="/s" method="get">
+                    <input type="text" name="text" class="keywords" />
+                    <input type="submit" value="百度一下" class="submitbt" />
+                    <img src="img/soutu.png" class="soutu-ico" />
+                </form>
+            </div>
+        </div>
+		<!-- 滚动时出现搜索框 -->
+		<div class="hide-search beforeclear">
+			<div class="hs-wraper">
+				<!--logo-->
+				<!--search form-->
+				<div class="hsearch">
+					<div class="logo2">
+						<img src="img/logo_top.png" alt="百度" width=101>
+					</div>
+					<form class="hform" name="f" action="/s" method="get">
+						<input type="text" name="text" class="keywords" />
+						<input type="submit" value="百度一下" class="submitbt" />
+						<img src="img/soutu.png" class="hsoutu-ico" />
+					</form>
+				</div>
+			</div>	
+        </div>
+		<div class="personal-wraper beforeclear">
+			<div class="personal">
+				<section class="tab">
+					<ul>
+						<li id="myfocus" class="nav-active">
+							<span></span>
+							我的关注
+						</li>
+						<li id="myrecom">推荐</li>
+						<li id="mynav">导航</li>
+						<li id="myvideo">视频</li>
+						<!-- <li id="myshopping">购物</li>
+						<li id="tab-set">购物</li> -->
+					</ul>
+					<span class="tab-set"></span>
+				</section>
+				<section class="focus tab-items">
+					<!-- <div class="focus1">
+						<i></i>
+						<span>我的导航</span>
+						<span>添加</span>
+						<span></span>
+						<span>返利模式</span>
+						<span>置顶</span>
+					</div> -->
+					<div class="define">
+						添加
+					</div>
+				</section>
+				<section class="recom tab-items">
+					<div class="pic-news">
+						<div class="info">
+							<i></i>
+							<span>以下信息根据您的兴趣推荐</span>
+							<i></i>
+						</div>
+						<div class="news-items afterclear">
+							<div class="photo">
+								<img src="img/news.jpg">
+							</div>
+							<div class="footnotediv">
+								<div class="footnote">
+									<h2>习近平会见俄罗斯总统普京</h2>
+									<span class="source">中华网 09-05 00:58</span>
+									<span class="mark">热点</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hotnews">
+						<div class="hot-title afterclear">
+							<div class="current">实时热点</div>
+							<div class="change">换一换</div>
+						</div>
+						<div class="newsbox afterclear">
+							<ul class="news-content">
+								<li><a href="#">摆999个柚子表白</a></li>
+								<li><a href="#">女生楼住进3个男生</a></li>
+								<li><a href="#">普京送安倍武士刀</a></li>
+								<li><a href="#">王登基被开除党籍</a></li>
+								<li><a href="#">贾静雯祝福前夫</a></li>
+								<li><a href="#">男生被骗9000</a></li>
+								<li><a href="#">焦恩俊嗮女儿庆生照</a></li>
+								<li><a href="#">癌症晚期生下女儿</a></li>
+							</ul>
+							<ul class="news-content">
+								<li><a href="#">摆999个柚子表白</a></li>
+								<li><a href="#">女生楼住进3个男生</a></li>
+								<li><a href="#">普京送安倍武士刀</a></li>
+								<li><a href="#">王登基被开除党籍</a></li>
+								<li><a href="#">贾静雯祝福前夫</a></li>
+								<li><a href="#">男生被骗9000</a></li>
+								<li><a href="#">焦恩俊嗮女儿庆生照</a></li>
+								<li><a href="#">癌症晚期生下女儿</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section class="mynav tab-items">
+					<div class="mynav1">
+						<h3 class="nav-name">猜你喜欢</h3>
+						<div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+							<div class="link-items">
+								<a href="#" >百度糯米</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="myvideo tab-items">
+					<div class="row1">
+						<div class="lpart">
+							<div class="lvideos">
+								<a href="#"><img src="img/v1.jpg"></a>
+								<p class="videoname"><a href="#">沙僧日记</a></p>
+								<p class="rank"><span class="star"><span class="star-active"></span></span>4.4</p>
+								<span class="long">77:56</span>
+							</div>
+							<div class="lvideos">
+								<a href="#"><img src="img/v2.jpg"></a>
+								<p class="videoname"><a href="#">箭士柳白猿</a></p>
+								<p class="rank"><span class="star"><span class="star-active"></span></span>4.4</p>
+								<span class="long">77:56</span>
+							</div>
+						</div>
+						<div class="rpart">
+							<div class="rvideos">
+								<a href="#"><img src="img/v3.jpg"></a>
+								<p class="videoname"><a href="#">香蕉街拍—咖啡王子杨玏</a></p>
+								<span class="rlong">14:09</span>
+							</div>
+							<div class="rvideos">
+								<a href="#"><img src="img/v6.jpg"></a>
+								<p class="videoname"><a href="#">饭店14名服务员掉包客人茅台 3名已全款买房</a></p>
+								<span class="rlong">03:56</span>
+							</div>
+							<div class="rvideos">
+								<a href="#"><img src="img/v4.jpg"></a>
+								<p class="videoname"><a href="#">《老九门》赵丽颖尹新月的正确打开方式</a></p>
+								<span class="rlong">04:00</span>
+							</div>
+							<div class="rvideos">
+								<a href="#"><img src="img/v5.jpg"></a>
+								<p class="videoname"><a href="#">《小别离》黄磊教科书般哄媳妇 机智化解危机</a></p>
+								<span class="rlong">02:14</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- <section class="shopping tab-items">
+					<div class="goods">
+						<a href="#"><img src=""></a>
+						<div>
+							<p>大闸蟹99元10只</p>
+							<p>百度用户 <span>中秋聚会</span></p>
+						</div>
+					</div>
+				</section> -->
+			</div>
+		</div>
+        <!-- 返回顶部 -->
+		<div class="back-top">
+			<div class="backicon"></div>
+			<div class="back">返回顶部</div>
+		</div>
+		<!--footer-->
+        <div id="footer">
+            <!--copyright-footer-->
+            <div id="cprtdiv">
+                <p class="cprtp">
+                    <span class="time">©2016 Baidu</span>
+                    <a href="https://www.baidu.com/duty/" class="ftlj">使用百度前必读</a>
+                    <a href="http://jianyi.baidu.com/" class="ftlj">意见反馈</a>
+                    <span>京ICP证030173号</span>
+                    <img class="icp" src="img/copy_rignt.png" width=14 height=17/>
+                </p>
+                <p class="cprtp">
+                    <img src="img/icon-police.png" width=14 height=17/>
+                    <span>京公网安备11000002000001号</span>
+                </p>
+            </div>
+        </div>
+    </div>
+	<script type="text/javascript" src="baidu.js"></script>
+	
+</body>
+
+</html>
