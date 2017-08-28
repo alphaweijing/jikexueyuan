@@ -1,0 +1,93 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<title>百度新闻后台管理</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-static-top">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">百度新闻后台管理</a>
+		    </div>
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container-fluid">
+		  <div class="row">
+		  <!-- 添加新闻面板 -->
+		    <div class="col-xs-12 col-md-6">
+		    	<div class="panel panel-default" id="newsPanel">
+				  <div class="panel-heading">添加新闻</div>
+				  <div class="panel-body">
+				    <form id="signupForm">
+				       <div class="form-group">
+					    <label for="newstype">新闻类型</label>
+					    <input type="text" class="form-control" name="newstype" id="newstype" placeholder="type">
+					  </div>
+					  <div class="form-group">
+					    <label for="newstitle">标题</label>
+					    <input type="text" class="form-control" name="newstitle" id="newstitle" placeholder="title">
+					  </div>
+					  <div class="form-group  ">
+					    <label for="newsimg">新闻图片</label>
+					    <input type="text" class="form-control" name="newsimg" id="newsimg" placeholder="image">
+					  </div>
+					  <div class="form-group  ">
+					    <label for="newstime">新闻时间</label>
+					    <input type="text" class="form-control" name="newstime" id="newstime" placeholder="time">
+					  </div>
+					  <button class="btn btn-primary" onclick="addNews()" id="submit1">保存</button>
+					</form>
+				  </div>
+				</div>
+		    </div>
+		    
+		    <!-- 新闻列表面板 -->
+  			<div class="col-xs-12 col-md-6">
+				<div class="panel panel-default">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">新闻列表</div>
+				  <div class="panel-body">
+				    <p>删除新闻不可恢复，请谨慎操作</p>
+				  </div>
+				  <!-- Table -->
+				  <table class="table" id="newstable">
+				    	<thead>
+				    		<tr>
+				    			<th>ID</th>
+				    			<th>类型</th>
+				    			<th>标题</th>
+				    			<th>图片</th>
+				    			<th>时间</th>
+				    			<th>操作</th>
+				    		</tr>
+				    	</thead>
+				    	<tbody></tbody>
+				  </table>
+				</div>
+  			</div>
+		  </div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">提示</h4>
+		      </div>
+		      <div class="modal-body">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+	<script src="http://cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/admin.js"></script>
+</html>
